@@ -65,7 +65,7 @@ export const animeConfig: AnimeConfig = withUserConfig("anime", {
 			request: {
 				pageSize: 50,
 				maxItems: 300,
-				minDelayMs: 200,
+				minDelayMs: 1500,
 			},
 		},
 		bilibili: {
