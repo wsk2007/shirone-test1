@@ -131,7 +131,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 | `projectsConfig.ts` | 项目页行为控制：页面总开关、分类清单与单项禁用列表（项目内容维护在 `src/data/projects.ts`）；关闭页面时导航入口同步隐藏 |
 | `timelineConfig.ts` | 时间线页行为控制：页面总开关、分类清单、排序方向与单项禁用列表（时间线内容维护在 `src/data/timeline.ts`）；关闭页面时导航入口同步隐藏 |
 | `devicesConfig.ts` | 设备页行为控制：页面总开关、场景分类清单与单项禁用列表（设备清单维护在 `src/data/devices.ts`）；关闭页面时导航入口同步隐藏 |
-| `gamesConfig.ts` | 游戏页行为控制：页面总开关、游戏分类清单与单项禁用列表（游戏清单维护在 `src/data/games.ts`，封面支持 src/assets 相对路径、/public 绝对路径与远程 URL）；关闭页面时导航入口同步隐藏 |
+| `gamesConfig.ts` | 游戏页行为控制：页面总开关、游戏分类清单与单项禁用列表（游戏清单维护在 `src/data/games.ts`，封面支持 src/assets 相对路径、/public 绝对路径与远程 URL）；可选 Bangumi 构建期快照源见 [`docs/games-bangumi-source.md`](../../docs/games-bangumi-source.md)；关闭页面时导航入口同步隐藏 |
 | `animeConfig.ts` | 番剧页与外部追番数据源：数据源选择（本地 / Bangumi 快照 / Bilibili 快照）、失败降级、提供方凭据环境配置与快照生命周期管理（本地番剧维护在 `src/data/anime.ts`） |
 | `llmsConfig.ts` | 大语言模型与 AI 友好内容系统：`/llms.txt`（索引）与 `/llms-full.txt`（全量正文汇编）静态端点生成控制、加密文章过滤、排除标签与自定义章节配置；支持内容仓 `config/llms.yaml` 覆盖（领域键 `llms`） |
 | `seriesConfig.ts` | 系列连载：`/series/` 索引与 `/series/<slug>/` 详情页总开关（默认开启）、索引页 `title`/`description`（`$t:` i18n 引用或字面量，描述留空用动态汇总）、文章内系列块位置 `cardPosition: "top" \| "bottom"`（top = 元信息区下方、正文之前；bottom = 正文之后、版权/分享/延伸阅读之前）；支持内容仓 `config/series.yaml` 覆盖（领域键 `series`）。关闭时系列页 404、导航/侧栏/sitemap 入口裁剪、文章内系列卡消失（系列实体与文章 frontmatter 见 `shirone-writing` 与内容分离文档） |
