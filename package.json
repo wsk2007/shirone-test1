@@ -136,5 +136,5 @@
 		"@types/sanitize-html": "^2.16.2",
 		"esbuild": "^0.28.2",
 		"vite": "^8.3.2"
-	},
+	}
 }
