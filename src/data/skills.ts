@@ -5,6 +5,7 @@
 import type { SkillItem } from "@/types/skillsConfig";
 
 export const skillsData: SkillItem[] = [
+  /**
 	{
 		name: "JavaScript",
 		description:
@@ -69,6 +70,7 @@ export const skillsData: SkillItem[] = [
 		category: "backend",
 		level: "advanced",
 	},
+  **/
 	{
 		name: "Python",
 		description: "Scripting, data wrangling, and service automation.",
@@ -81,8 +83,9 @@ export const skillsData: SkillItem[] = [
 		description: "Typed OO code for larger service and tooling layers.",
 		icon: "simple-icons:openjdk",
 		category: "backend",
-		level: "intermediate",
+		level: "advanced",
 	},
+  /**
 	{
 		name: "Go",
 		description: "Concurrent services and small high-performance tools.",
@@ -90,6 +93,7 @@ export const skillsData: SkillItem[] = [
 		category: "backend",
 		level: "beginner",
 	},
+  **/
 	{
 		name: "Rust",
 		description: "Memory-safe systems code and performance-critical paths.",
@@ -104,6 +108,28 @@ export const skillsData: SkillItem[] = [
 		category: "backend",
 		level: "beginner",
 	},
+	{
+		name: "Racket",
+		description: "Language creation, extensible metaprogramming, and functional programming.",
+		icon: "simple-icons:racket",
+		category: "backend",
+		level: "intermediate",
+	},
+	{
+		name: "Visual Basic",
+		description: "Beginner-friendly programming, visual application prototyping.",
+		icon: "simple-icons:visualbasic",
+		category: "backend",
+		level: "advanced",
+	},
+	{
+		name: "F#",
+		description: "Cross-platform functional-first programming, data-rich analytical applications, and robust enterprise .NET development.",
+		icon: "simple-icons:fsharp",
+		category: "backend",
+		level: "intermediate",
+	},
+  /**
 	{
 		name: "C",
 		description: "Low-level systems work close to the runtime.",
@@ -153,6 +179,7 @@ export const skillsData: SkillItem[] = [
 		category: "tooling",
 		level: "advanced",
 	},
+  **/
 ];
 
 /** 获取所有技能数据列表 */
